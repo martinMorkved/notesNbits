@@ -3,8 +3,6 @@
 //alert(tweetUnder140);
 //tweetUnder140.length;
 
-
-
 //var name = prompt("What is your name?");
 //var firstChar = name.slice(0,1);
 //firstChar = firstChar.toUpperCase();
@@ -17,14 +15,6 @@
 //var dogAge = prompt("How old is you dog?");
 //var humanAge = ((dogAge -2)*4)+21;
 //alert ("Your dog is " + humanAge + " years old in human age!");
-
-
-
-
-
-
-
-
 
 /************function lifeInWeeks(age) {
     
@@ -41,8 +31,6 @@
 lifeInWeeks(51);
 
 ************/
-
-
 
 /***function getMilk(money, costPerBottle) {   
   console.log("leaveHouse");
@@ -97,9 +85,6 @@ console.log("Hello master, here is your " + getMilk(10, 3) + " change.");
 //Create your function below this line.
 //The first parameter should be the weight and the second should be the height.
 
-
-
-
 /* If my weight is 65Kg and my height is 1.8m, I should be able to call your function like this:
 
 var bmi = bmiCalculator(65, 1.8); 
@@ -107,7 +92,6 @@ var bmi = bmiCalculator(65, 1.8);
 bmi should equal 20 when it's rounded to the nearest whole number.
 
 */
-
 
 //random diceroll
 /***
@@ -168,7 +152,6 @@ function bmiCalculator (weight, height) {
 bmiCalculator(60, 2);
 **/
 
-
 //leap year calc
 /** function isLeap(year) {
     
@@ -183,9 +166,6 @@ bmiCalculator(60, 2);
 
 isLeap(1948);
 **/
-
-
-
 
 /**
 var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
@@ -234,7 +214,6 @@ function fizzBuzz() {
 
 fizzBuzz();
 **/
-
 
 /**
 function whosPaying(names) {
@@ -345,7 +324,7 @@ fibonacciGenerator (8);
 var randomNumberOne = Math.floor(Math.random() * 6) + 1;
 console.log(randomNumberOne);
 **/
-
+/**
 function add(num1, num2) {
 return num1 + num2;
 }
@@ -364,4 +343,13 @@ return num1 / num2;
  
 function calculator(num1, num2, operator) {
 return operator(num1, num2);
+}
+**/
+
+function HouseKeeper(name, age, workExperiance, cleaningRepertoire, country) {
+  this.name = name;
+  this.age = age;
+  this.workExperiance = workExperiance;
+  this.cleaningRepertoire = cleaningRepertoire;
+  this.country = country;
 }
