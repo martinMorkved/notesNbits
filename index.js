@@ -352,4 +352,7 @@ function HouseKeeper(name, age, workExperiance, cleaningRepertoire, country) {
   this.workExperiance = workExperiance;
   this.cleaningRepertoire = cleaningRepertoire;
   this.country = country;
+  this.clean = function () {
+    alert("I am cleaning");
+  };
 }
